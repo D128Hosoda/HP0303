@@ -1,0 +1,59 @@
+img{
+    height: 300px;
+    width: 800px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    padding: 0;
+    width: 800px;
+    table-layout: fixed;
+    color: #020202;
+  }
+  
+  table tr {
+    background-color: #fff;
+    border-bottom: 1px solid #bde9fd;
+  }
+  table th{
+    background-color: rgb(215, 255, 255);
+  }
+  table th,
+  table td {
+    padding: 1em 10px 1em 1em;
+  }
+  tbody th {
+      color: #000000;
+  }
+
+
+  @media screen and (max-width: 600px) {
+    table {
+      border: 0;
+      width:100%
+    }
+  }
+.naiyou{
+  height: 100px;
+}
+#MY{
+  height: 30px;
+  width: 300px;
+  border:none;
+  background-color: #f1f1f1;
+}
+#MY_2{
+  width: 300px;
+  border:none;
+  background-color: #f1f1f1;
+  color: #706f6f;
+}
+.red::after{
+  content:"(必須)";
+  color:#ff0000;
+  
+}

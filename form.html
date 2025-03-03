@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>D128 細田優樹</title>
+</head>
+<body>
+    <img src="img/tec.jpg" alt="東京電子">
+    <form>
+        <table>
+            <tr>
+                <th class="sentou"><span class="red">氏名</span></th>
+                <td>
+                    <input type="text" name="my_name" id="MY"placeholder="東京電子">
+                </td>
+            </tr>
+            <tr>
+                <th class="sentou">性別</th>
+                <td>
+                    男性<input type="radio" name="seibetu" value="male">
+                    女性<input type="radio" name="seibetu" value="female">
+                    未回答<input type="radio" name="seibetu" value="none">
+                </td>
+            </tr>
+            <tr>
+                <th class="sentou">メールアドレス</th>
+                <td>
+                    <input type="text" name="my_mail" id="MY" placeholder="sample@sample.jp">
+                </td>
+            </tr>
+            <tr>
+                <th class="sentou">電話番号</th>
+                <td>
+                    <input type="text" name="my_bangou" id="MY" placeholder="03-1234-5678">
+                </td>
+            </tr>
+            <tr>
+                <th class="naiyou"><span class="red">お問い合わせ内容</span></th>
+                <td>
+                    <textarea class="naiyou" type="text" name="my_naiyou" id="MY_2">お問い合わせ内容を入力してください。</textarea>
+                </td>
+            </tr>
+            <tr>
+                <th class="sentou"><span class="red">利用規約</span></th>
+                <td>
+                    <input type="checkbox" name="kiyaku" id="my_checkbox">利用規約に同意する
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
